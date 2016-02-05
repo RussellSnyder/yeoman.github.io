@@ -100,7 +100,7 @@ Once you have this structure in place, it's time to write the actual generator.
 
 Yeoman offers a base generator which you can extend to implement your own behavior. This base generator will add most of the functionalities you'd expect to ease your task.
 
-Here's how you extend the base generator:
+In either 'index.js' file, you can extend the base generator with the following:
 
 ```js
 var generators = require('yeoman-generator');
